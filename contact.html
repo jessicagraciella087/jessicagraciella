@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+		<script type="text/javascript" src="js/JFCore.js"></script>
+		<script type="text/javascript" src="js/JFForms.js"></script>
+		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="" alt=""></a>
+		</div>
+		<div class="h_right">
+			<!--start menu -->
+			<ul class="menu">
+				<li><a href="index.html">hotel</a></li> |
+				<li><a href="rooms.html">rooms & suits</a></li> |
+				<li><a href="activities.html">activities</a></li> |
+				<li class="active"><a href="contact.html">contact</a></li>
+				<div class="clear"></div>
+			</ul>
+			<!-- start profile_details -->
+					<form class="style-1 drp_dwn">
+						<div class="row">
+							<div class="grid_3 columns">
+							</div>		
+						</div>		
+					</form>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+				<li class="active"><a href="index.html">hotel</a></li> 
+				<li><a href="rooms.html">rooms & suits</a></li> 
+				<li><a href="activities.html">activities</a></li> 
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!--start main -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="main">
+		<div class="contact">				
+				<div class="contact_left">
+					<div class="contact_info">
+			    	 	<h3>Find Us Here</h3>
+			    	 		<div class="map">
+					   			<iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=""></iframe><br><small><a href="https://www.google.co.id/maps/place/Mercure+Palu/@-0.886472,119.8478569,16z/data=!4m18!1m12!4m11!1m3!2m2!1d119.8827062!2d-0.9082903!1m6!1m2!1s0x2d8bec4cdb89db21:0xb07e2a25d28917ff!2sMercure+Palu+Jalan+Cumi+Cumi+No+8!2m2!1d119.8500018!2d-0.8846933!3m4!1s0x2d8bec4cdb89db21:0xb07e2a25d28917ff!8m2!3d-0.8846933!4d119.8500018" style="color: #242424;text-shadow: 0 1px 0 #ffffff;text-align: left;font-size: 0.7125em;padding: 5px;font-weight: 600;">Location : View Larger Map</a></small>
+					   		</div>
+      				</div>
+      			<div class="company_address">
+				     	<h3>Company Information :</h3>
+						<p>Jazz Hotel and Recreation Zone</p>
+						<p>Jalan Zebra 2 No 11 Tatura Selatan, Kota Palu, Sulawesi Tengah 94111</p>
+						<p>Palu</p>
+				   		<p>Telepon:(+62)451 464888</p>
+				   		<p>Email: <a href="mailto:info@mycompany.com">reservation@jazzhotelpalu.com</a></p>
+				   		<p>Follow on: <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+				   </div>		
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Details</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+		<script type="text/javascript" src="js/JFCore.js"></script>
+		<script type="text/javascript" src="js/JFForms.js"></script>
+		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo1.png" alt=""></a>
+		</div>
+		<div class="h_right">
+			<!--start menu -->
+			<ul class="menu">
+				<li class="active"><a href="index.html">hotel</a></li> |
+				<li><a href="rooms.html">rooms & suits</a></li> |
+				<li><a href="activities baru.html">activities</a></li> |
+				<li><a href="contact.html">contact</a></li>
+				<div class="clear"></div>
+			</ul>
+						</div>		
+						</div>		
+					</form>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+				<li class="active"><a href="index.html">hotel</a></li> 
+				<li><a href="rooms.html">rooms & suits</a></li>
+				<li><a href="activities baru.html">activities</a></li> 
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!--start main -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="main">
+		<div class="details">
+			<h2>Hotel Mercure Kota Palu</h2>
+			<div class="det_pic">
+				  <img src="images/pic14.jpg" alt="" />
+			</div>
+			<div class="det_text">
+				<p class="para">Hotel bintang 4 yang nyaman terletak tepat di depan Teluk Palu. Semua 138 kamar dilengkapi dengan dekorasi modern dan bergaya yang terinspirasi oleh tengara lokal. Hanya 20 menit dari bandara Mutiara Sis-Aljufrie, hotel ini memiliki restoran, bar lounge, 5 ruang pertemuan dan sebuah ballroom yang lebih besar, pusat bisnis, gym, dan kolam renang terbuka yang memberikan kenyamanan maksimal bagi para pebisnis maupun wisatawan. Baik untuk tujuan wisata atau bisnis, Mercure Palu Hotel adalah pilihan akomodasi yang tepat ketika mengunjungi Palu. Properti ini terletak 3.2 km dari pusat kota dan menyediakan akses mudah ke fasilitas-fasilitas penting kota ini. Karena lokasinya yang strategis, properti ini memiliki akses mudah ke destinasi yang wajib dikunjungi di kota ini.</p>
+				<p class="para">Semua akomodasi tamu dilengkapi dengan fasilitas yang telah dirancang dengan baik demi menjaga kenyamanan maksimum. Properti ini menawarkan berbagai pengalaman hiburan unik seperti pusat kebugaran, kolam renang luar ruangan. Temukan perpaduan menarik dari pelayanan profesional dan sejumlah fasilitas yang ada di Mercure Palu Hotel. Gunakan kesempatan untuk menikmati pelayanan dan fasilitas yang tidak tertandingi di properti yang ada Palu ini. Properti ini menawarkan sejumlah fasilitas di tempat untuk memuaskan segala jenis tamu.</p>
+				<div class="read_more">
+					 <a href="details.html">read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>		
+<!--start footer -->
+<div class="footer_bg">
+<div class="wrap">
+<div class="footer">
+			<div class="copy">
+				<p class="link"><span>© All rights reserved | Template by&nbsp;<a href="#">Edwardo Nelwan</a></span></p>
+			</div>
+			<div class="f_nav">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="rooms.html">rooms & suits</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="soc_icons">
+				<ul>
+					<li><a class="icon1" href="#"></a></li>
+					<li><a class="icon2" href="#"></a></li>
+					<li><a class="icon3" href="#"></a></li>
+					<li><a class="icon4" href="#"></a></li>
+					<li><a class="icon5" href="#"></a></li>
+					<div class="clear"></div>
+				</ul>	
+			</div>
+			<div class="clear"></div>
+</div>
+</div>
+</div>		
+</body>
+</html>
